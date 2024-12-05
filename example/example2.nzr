@@ -1,0 +1,16 @@
+anggep jumlah itu 5
+nampilin "Jumlah: " + jumlah
+
+ganti jumlah itu 12
+nampilin "Jumlah: " + jumlah
+
+anggep isActive itu bener
+nampilin "Active: " + isActive
+
+cobain i sampe 10
+  kalo i lebih gede 3
+    nampilin "Loop ke " + i
+  kayaknya i itu 3 
+    nampilin "Loop ke 3 : " + (i == 3)
+  udahlah
+udahlah

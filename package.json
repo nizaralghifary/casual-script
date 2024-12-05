@@ -1,0 +1,20 @@
+{
+  "name": "casual-script",
+  "version": "1.0.0",
+  "description": "A programming language based on my daily language",
+  "main": "interpreter.js",
+  "bin": {
+    "nzr": "./interpreter.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "author": "Nizar Alghifary",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}

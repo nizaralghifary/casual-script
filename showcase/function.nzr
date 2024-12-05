@@ -1,0 +1,44 @@
+jadi umur_gw
+  anggep umur itu 25
+  nampilin "umur kamu " + umur
+selesai
+
+jadi ngeloop berapaKali
+  cobain i sampe berapaKali
+    kalo i lebih gede 3
+      nampilin "loop ke " + i
+    kayaknya i itu 3 
+      nampilin "loop ke 3 : " + (i == 3)
+    udahlah
+  udahlah
+selesai
+
+jadi fungsiParam a 
+  nampilin "a: " + a 
+selesai
+
+jadi fungsiMultiParam a b c 
+  nampilin "argumen pertama: " + a 
+  nampilin "argumen kedua: " + b 
+  nampilin "argumen ketiga: " + b
+selesai
+
+panggil umur_gw
+nampilin "\n"
+
+panggil ngeloop 20
+nampilin "\n"
+
+anggep nama itu "arman"
+
+panggil fungsiParam nama
+nampilin "\n"
+
+panggil fungsiParam "lingga"
+nampilin "\n"
+
+panggil fungsiParam 3
+nampilin "\n"
+
+panggil fungsiMultiParam 5 6 7
+nampilin "\n"

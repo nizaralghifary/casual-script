@@ -1,0 +1,12 @@
+anggep bilanganAkhir itu 10
+
+cobain i sampe bilanganAkhir
+  anggep cekGenap itu i%2
+  kalo i lebih gede 0 
+    kalo cekGenap itu 0
+      nampilin "Bilangan "+i+" - Genap"
+    kalogak
+      nampilin "Bilangan "+i+" - Ganjil" 
+    udahlah
+  udahlah
+udahlah

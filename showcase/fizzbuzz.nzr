@@ -1,0 +1,17 @@
+cobain nomor sampe 100
+  kalo nomor gak 0 
+    anggep hasil itu ""
+    pasti fizz itu nomor % 3
+    pasti buzz itu nomor % 5
+    kalo fizz itu 0 
+      ganti hasil itu hasil + "fizz"
+    udahlah
+    kalo buzz itu 0 
+      ganti hasil itu hasil + "buzz"
+    udahlah
+    kalo hasil itu ""
+      anggep hasil itu nomor
+    udahlah
+    nampilin hasil
+  udahlah
+udahlah

@@ -1,0 +1,13 @@
+anggep umur itu 21
+nampilin "umur kamu " + umur
+kalo umur lebih gede 20
+  nampilin "kamu tua"
+  anggep umurku itu umur + 10 
+  nampilin "kalo umurku " + umurku
+  kalo umurku lebih gede 30
+    nampilin "aku lebih tua"
+  udahlah
+kalogak
+  nampilin "dasar bocil"
+udahlah
+nampilin "udahan lah"

@@ -1,0 +1,14 @@
+anggep bilangan1 itu 0
+anggep bilangan2 itu 1 
+anggep bilangan3 itu 0 
+
+anggep output itu bilangan1 + ", " + bilangan2
+
+cobain i sampe 10
+  ganti bilangan3 itu bilangan1 + bilangan2
+  ganti output itu output + ", " + bilangan3
+  ganti bilangan1 itu bilangan2
+  ganti bilangan2 itu bilangan3
+udahlah
+
+nampilin output

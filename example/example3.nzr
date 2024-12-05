@@ -1,0 +1,8 @@
+coba
+  nampilin "Something wrong"
+  error "Error message"
+pantau
+  nampilin "Catch error"
+yaudahsih
+  nampilin "finish finally"
+udahlah
