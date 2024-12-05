@@ -4,7 +4,7 @@
   "description": "A programming language based on my daily language",
   "main": "interpreter.js",
   "bin": {
-    "nzr": "./interpreter.js"
+    "nzr": "interpreter.js"
   },
   "scripts": {
     "test": "jest"
