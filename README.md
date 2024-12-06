@@ -1,4 +1,4 @@
-# Casual Script
+# Nzr Script
 
 Casual Script is a new programming language. It's very modern, and easy to learn. No programming experience required.
 
@@ -6,11 +6,11 @@ Casual Script is a new programming language. It's very modern, and easy to learn
 
 Install from npm
 ```bash
-npm i -g casual-script
+npm i -g nzr-script
 ```
 Or Clone this repository
 ```bash
-git clone https://github.com/nizaralghifary/casual-script.git
+git clone https://github.com/nizaralghifary/nzr-script.git
 ```
 
 ### Run
@@ -25,7 +25,20 @@ Or run from this repository
 ```
 node interpreter.js example/example1.nzr
 ```
+**Repl Mode**
 
+Run Repl Mode
+```bash
+nzr
+```
+Version
+```bash
+nzr --version
+```
+Help
+```bash
+nzr --help
+```
 ## Example 
 
 Example : 

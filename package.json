@@ -1,6 +1,6 @@
 {
-  "name": "casual-script",
-  "version": "1.0.0",
+  "name": "nzr-script",
+  "version": "1.0.2",
   "description": "A programming language based on my daily language",
   "main": "interpreter.js",
   "bin": {
