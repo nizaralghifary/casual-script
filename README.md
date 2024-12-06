@@ -1,6 +1,6 @@
 # Nzr Script
 
-Casual Script is a new programming language. It's very modern, and easy to learn. No programming experience required.
+Nzr Script is a new programming language. It's very modern, and easy to learn. No programming experience required.
 
 ## Install & Run
 
@@ -15,7 +15,7 @@ git clone https://github.com/nizaralghifary/nzr-script.git
 
 ### Run
 
-If you install from npm, run casual script using `nzr` command
+If you install from npm, run nzr script using `nzr` command
 
 ```bash
 nzr example/example1.nzr

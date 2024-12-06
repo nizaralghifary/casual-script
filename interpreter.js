@@ -9,12 +9,11 @@ const version = "1.0.2";
 let fileLocate = null;
 let debugMode = false;
 
-// Fungsi untuk menampilkan help
 const displayHelp = () => {
   console.log(chalk.yellow(`
 Usage: nzr [options] <file>
 Options:
-  -v, --version       Show the current version of Casual-Script.
+  -v, --version       Show the current version of Nzr-Script.
   -h, --help          Display this help message.
   --debug             Show the generated JavaScript code before execution.
 Examples:
@@ -25,11 +24,11 @@ Examples:
 Commands in REPL:
   help                Display this help message.
   exit                Quit the REPL mode.
-  [command]           Any valid Casual-Script command to execute.
+  [command]           Any valid Nzr-Script command to execute.
   `));
 };
 
-// REPL
+// Repl Mode
 const handleInputFromTerminal = () => {
   const rl = readline.createInterface({
     input: process.stdin,
@@ -37,7 +36,7 @@ const handleInputFromTerminal = () => {
     prompt: "> ",
   });
 
-  console.log(chalk.blue("Welcome to Casual-Script Interpreter!"));
+  console.log(chalk.blue("Welcome to Nzr-Script Interpreter!"));
   console.log(chalk.yellow("Type 'help' for available commands or 'exit' to quit."));
   rl.prompt();
 
@@ -66,7 +65,6 @@ const handleInputFromTerminal = () => {
   });
 };
 
-// Argumen terminal
 const parseArgs = () => {
   const args = process.argv.slice(2);
   const options = args.filter((arg) => arg.startsWith("-"));
