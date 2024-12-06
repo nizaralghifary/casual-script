@@ -1,6 +1,6 @@
 {
   "name": "nzr-script",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A programming language based on my daily language",
   "main": "interpreter.js",
   "bin": {
