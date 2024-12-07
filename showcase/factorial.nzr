@@ -1,0 +1,8 @@
+pasti n itu 5
+anggep faktorial itu 1
+
+cobain i dari 5 sampe 1
+  ganti faktorial itu faktorial * i
+udahlah
+
+nampilin "Faktorial dari " + n + " adalah " + faktorial
